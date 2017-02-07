@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    json_z3: "./src/jzon3.js",
+    jzon3: "./src/jzon3.js",
   },
   output: {
     path: __dirname+'/build/',
