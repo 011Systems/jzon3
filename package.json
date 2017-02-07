@@ -1,6 +1,6 @@
 {
   "name": "jzon3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON parser",
   "main": "./build/jzon3.bundle.js",
   "scripts": {
