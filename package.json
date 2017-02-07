@@ -1,6 +1,6 @@
 {
   "name": "jzon3",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "JSON parser",
   "main": "./build/jzon3.js",
   "scripts": {
@@ -13,13 +13,14 @@
   },
   "author": "011 systems",
   "license": "ISC",
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/011Systems/jzon3.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/011Systems/jzon3.git"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
+    "babel-plugin-transform-class-properties": "^6.22.0",
     "babel-preset-es2015": "^6.22.0",
     "webpack": "^2.2.1"
   }
