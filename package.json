@@ -9,6 +9,10 @@
   },
   "author": "011 systems",
   "license": "ISC",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/011Systems/jzon3.git"
+  },
   "devDependencies": {
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
