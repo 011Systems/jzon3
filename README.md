@@ -1,6 +1,6 @@
 # JZON3
 
-This is simple and fast JSON parser. Most importing thing is that handles cycles.
+This is simple and fast JSON parser. The most importing thing is that handles cycles.
 All sorts of types handles very fast.
 
 ## Installation
@@ -11,8 +11,8 @@ All sorts of types handles very fast.
 
 ## Usage
 
-TODO: Write usage instructions
+ - JZON.stringify(obj);
+ - JZON.parse(json);
 
 ## License
 
-TODO: Write license
