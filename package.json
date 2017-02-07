@@ -1,0 +1,18 @@
+{
+  "name": "jzon3",
+  "version": "1.0.0",
+  "description": "JSON parser",
+  "main": "./build/jzon3.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "011 systems",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "webpack": "^2.2.1"
+  }
+}
