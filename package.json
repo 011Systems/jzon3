@@ -1,11 +1,15 @@
 {
   "name": "jzon3",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JSON parser",
-  "main": "./build/jzon3.bundle.js",
+  "main": "./build/jzon3.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
+  },
+  "directories": {
+    "lib": "src/",
+    "bin": "build/"
   },
   "author": "011 systems",
   "license": "ISC",
