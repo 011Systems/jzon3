@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel ./src/jzon3.js  --out-file ./build/jzon3.js",
-    "prebuild": "rm -rf build | mkdir build",
+    "prebuild": "rimraf build/*",
     "prepublish": "npm run build"
   },
   "directories": {
@@ -24,6 +24,7 @@
     "babel-loader": "^6.2.10",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-env": "^1.1.8",
-    "babel-preset-es2015": "^6.22.0"
+    "babel-preset-es2015": "^6.22.0",
+    "rimraf": "latest"
   }
 }
