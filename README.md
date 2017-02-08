@@ -10,8 +10,8 @@ All sorts of types handles very fast.
 
 ## Usage
   
- - JZON.stringify(obj);
- - JZON.parse(string);
+ - JZON3.stringify(obj);
+ - JZON3.parse(string);
 
 ## License
   ### ISC
