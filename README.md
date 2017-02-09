@@ -12,7 +12,7 @@ Date, Infinity, -Infinity and NaN.
 
 ## Usage
 ```
-  import JZON3 from 'jzon3';
+  import JZON3 from 'jzon3'; // or var JZON3 = require('jzon3').default;
 
   let foo = {
     name: 'foo',
