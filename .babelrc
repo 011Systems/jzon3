@@ -1,7 +1,15 @@
 {
   "presets": ["es2015"],
   "plugins": [
-    "transform-es2015-modules-amd",
-    "add-module-exports"
-  ]
+    "syntax-async-functions",
+    "syntax-class-properties",
+    "transform-async-to-generator",
+    "transform-object-rest-spread",
+    "transform-class-properties"
+  ],
+  "env": {
+    "test": {
+      "plugins": ["babel-plugin-rewire"]
+    }
+  }
 }
