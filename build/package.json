@@ -1,7 +1,7 @@
 {
   "name": "jzon3",
   "version": "1.1.0",
-  "description": "Extended JSON stringifier/parser",
+  "description": "Extended JSON stringifier/parser. Implement circular references handling and support for other JS types in addition to standard JSON",
   "main": "build/index.js",
   "scripts": {
     "build": "gulp build",
